@@ -49,15 +49,7 @@ public class MyVector<E> extends MyAbstractList<E> implements MyList<E> {
      *
      * @return String
      */
-    public String getId() {
-        return "Program 6, FullNameHere";
-    }
-
-    /**
-     * This method returns the capacity of the internal array
-     *
-     * @return int
-     */
+   
     public int getCapacity() {
         return array.length;
     }
